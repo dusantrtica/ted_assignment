@@ -33,15 +33,15 @@
     "public": false
   },
   "period": {
-    "dataSource": "db",
+    "dataSource": "pgre",
     "public": true
   },
   "booking": {
-    "dataSource": "db",
+    "dataSource": "pgre",
     "public": true
   },
   "property": {
-    "dataSource": "db",
+    "dataSource": "pgre",
     "public": true
   }
 }
