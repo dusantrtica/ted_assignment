@@ -62,8 +62,8 @@ module.exports = function(Property) {
 		var availableProperties = [];
 		Period.find({where: 
 						{and: 
-							[{start_date: {between:[startDate, endDate]}}, 
-							{end_date: {between:[startDate, endDate]}}, 
+							[{start_date: {lt:startDate}}, 
+							{end_date: {gt:endDate}}, 
 							{type: 'available'}]}}, 
 				function (err, availablePeriods){
 					// Extract property ids from availablePeriods
