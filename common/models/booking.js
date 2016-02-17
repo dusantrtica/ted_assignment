@@ -5,4 +5,9 @@ module.exports = function(Booking) {
 	}
 
 	console.log('another cool feature from dev');
+
+	for(var i = 0; i < 10; i++){
+		console.log('this is cool feature in dev504');
+	}
+
 };
