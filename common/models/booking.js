@@ -3,4 +3,10 @@ module.exports = function(Booking) {
 	for(var i = 0; i < 10; i++){
 		console.log('cool feature');
 	}
+
+	for(var i = 0; i < 10; i++){
+		console.log('this is cool feature in dev504');
+	}
+
+
 };
