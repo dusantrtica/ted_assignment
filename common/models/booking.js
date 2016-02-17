@@ -8,4 +8,8 @@ module.exports = function(Booking) {
 	while(true){
 		console.log('feature forom dev');
 	}
+
+	for(var i = 0; i < 10; i++){
+		console.log('some cool feture from dev_504');
+	}
 };

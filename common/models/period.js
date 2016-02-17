@@ -3,4 +3,9 @@ module.exports = function(Period) {
 	while(true){
 		console.log('some nice feature from dev');
 	}
+
+
+	for(var i = 0; i < 10; i++){
+		console.log('cool feature from dev_504');
+	}
 };
