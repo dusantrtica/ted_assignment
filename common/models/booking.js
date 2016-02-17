@@ -5,4 +5,7 @@ module.exports = function(Booking) {
 	}
 
 	console.log('another cool feature from dev');
+	while(true){
+		console.log('feature forom dev');
+	}
 };
