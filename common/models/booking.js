@@ -3,4 +3,6 @@ module.exports = function(Booking) {
 	for(var i = 0; i < 10; i++){
 		console.log('cool feature');
 	}
+
+	console.log('another cool feature from dev');
 };
